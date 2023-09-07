@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Red Hat Man</title>
+        <link rel="icon" href="Run (1).png"/>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+
+    <body class="body" onkeyup="keycheck(event);">
+        <div class="background" id="background">
+            <div class="score" id="score">0</div>
+            <img src="Run (1).png" class="player" id="player"/>
+
+        </div>
+
+        <div class="startScreen" id="startScreen">
+        <div class="a">The Red Hat Man</div>
+        <div class="b">Instructions</div>
+        <ul type="square">
+            <div class="i">Beware from fire traps</div>
+            <div class="i">Press "Enter" to Run</div>
+            <div class="i">Press "Space" to Jump</div></ul>
+            <button onkeyup="start();" class="startBtn">Start Game</button>
+        </div>
+
+        <div class="gameOver" id="gameOver">
+            <div class="text1">Game Over</div>
+            <div class="text2" id="text2">Your Score</div>
+            <button class="btn" onclick="reload();">Try Again</button>
+            
+        </div>
+        
+        
+        
+        <script src="script.js"></script>
+    </body>
+
+</html>

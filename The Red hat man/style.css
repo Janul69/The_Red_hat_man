@@ -1,0 +1,141 @@
+.background{
+    background-image: url(background.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: 0px;
+}
+
+.player{
+    position: absolute;
+    height: 250px;
+    margin-top: 320px;
+}
+
+.score{
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.block{
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    margin-top: 425px;
+
+}
+
+.gameOver{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    margin-left: 430px;
+    margin-top: 150px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+
+}
+
+.text1{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    font-family:"ALGERIAN";
+     
+}
+.text2{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    font-family: "Arial";
+
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    font-family: "ALGERIAN";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.a{
+    font-size: 100px;
+    color: red;
+    margin-top: 40px;
+    font-family: ALGERIAN;
+    font-weight: bold;
+}
+
+.b{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Comic Sans MS;
+}
+
+.i{
+    font-size: 35px;
+    color:floralwhite;
+    margin-top: 10px;
+    font-family: ALGERIAN;
+    font-weight: bold;
+
+}
+
+.startScreen{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("startingbackground.jpg");
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    background-size: 100%;
+
+
+}
+
+.startBtn{
+    width: 450px;
+    height: 70px;
+    font-size: 50px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-family: Segoe Script;
+}
+
+
+
+
+
+
+
+
+       
